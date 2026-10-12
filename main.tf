@@ -11,3 +11,7 @@ resource "azurerm_resource_group" "rg1" {
   name     = "my-resource-group1"
   location = "Central India"
 }
+resource "azurerm_resource_group" "rg2" {
+  name     = "my-resource-group2"
+  location = "Central India"
+}
